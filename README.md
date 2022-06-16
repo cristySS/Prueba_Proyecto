@@ -31,7 +31,7 @@ La ecuación de *Penman-Monteith* se utiliza para la estimación de ETo, es deci
 
 De acuerdo con el enfoque del coeficiente del cultivo, la evapotranspiración del cultivo ETc se calcula como el producto de la evapotranspiración del cultivo de referencia, ETo y el coeficiente del cultivo Kc (ver Tabla 1):
 
-​                                                           ETc = Kc* ETo                                                                  (Ecuación 1)
+​                                                           ETc = Kc* ETo                                                                  (Ecuación 1)  
 
 
 

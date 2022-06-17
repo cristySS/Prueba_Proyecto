@@ -161,13 +161,17 @@ Ga = Gasto de agua por sección
      Sumatoria de número de aspersores * gasto de cada uno (Lt/min)
 
 Seccion 1: 10 rociadores con un Ga = 9 Lt/min cada uno = 90 Lt/min = 0.090 m3/min
+
 Seccion 2: 5 aspersores con un Ga = 18 Lt/min cada uno = 90 Lt/min = 0.090 m3/min
+
 Seccion 3: 5 aspersores con un Ga = 18 Lt/min cada uno = 90 Lt/min = 0.090 m3/min
 
 Entonces el Tiempo de aplicación de agua seria: 
 
-Seccion: 1     Ta =  0.6227/0.090   = 6.91 min            
+Seccion: 1     Ta =  0.6227/0.090   = 6.91 min      
+
 Seccion 2      Ta =  0.98215/0.090  = 9.12 min                   
+
 Seccion 3      Ta =  0.924/0.090    = 10.26 min                                 
  
 

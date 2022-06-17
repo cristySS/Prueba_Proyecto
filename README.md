@@ -11,7 +11,7 @@ La cantidad de agua que utilizan las plantas depende del clima, del contenido de
 
 La programación del riego debe responder a dos preguntas básicas: ¿Cuándo regar? y ¿Cuánto regar? La respuesta a la primera pregunta es el intervalo de riegos y tiene la finalidad de optimizar la producción, conservar el agua, minimizar impactos ambientales y ahorrar dinero. La segunda respuesta debe estar orientada a igualar los requerimientos de agua del cultivo y realizar los aportes en cantidades suficientes, considerando la evaporación, transpiración, radiación, precipitación y temperatura. (Ilustración 1 Esquema de variables.)
 
-![img](file:https://github.com/cristySS/R-GIS/blob/main/Imagen1.jpg)
+![img](https://github.com/cristySS/R-GIS/blob/main/Imagen1.jpg)
 
 ​                                                           *Ilustración 1 Esquema de variables.*
 
@@ -172,8 +172,7 @@ Seccion 3      Ta =  0.924/0.090    = 10.26 min
  
 
 
- 
-Ta = 2. 72 = 2 horas con 45 minutos
+
 
  
 

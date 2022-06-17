@@ -126,92 +126,53 @@ La cantidad de agua requerida para compensarla pérdida por evapotranspiración 
 
 Para que un cultivo reciba la cantidad necesaria de agua se requiere un poco más de este líquido, lo que se denomina **Lámina Bruta de Riego**. Esta cantidad depende del sistema que se tenga. Para el goteo se estima una eficiencia (Er) del 90 al 95%, para la aspersión se estima una eficiencia del 80 al 85%; con esta eficiencia obtenemos la cantidad de milímetros que debemos aplicar, de la siguiente manera:
 
-​                      Requerimiento de riego (RR) o Lámina Bruta ( db) = ETc/Eficiencia x 100           (Ecuación 9)
+​                      Requerimiento de riego (RR) o Lámina Bruta ( db) = ETc/Eficiencia            (Ecuación 9)
 
-​                                                                              RR=5.33/.80*100
+​                                                                              RR=5.33/.80
 
-​                                                                                 RR= 667 mm
+​                                                                                 RR= 6.6625 mm = 0.0066625 m
 
-Con el dato anterior podemos obtener el volumen de agua por planta (G).
-
-​                                      G = (db/f) * Sp * SI   litros/planta/día                                                     (Ecuación 10)
+Con el dato anterior podemos obtener el volumen de agua de cada área a regar   (G).
+   
+​                                      G = RR * A   m3                                                     (Ecuación 10)
 
  Donde: 
 
-RR o db               Requerimiento de riego o lámina bruta.
+RR o db               Requerimiento de riego o lámina bruta (m)
 
-f                          Es la frecuencia de riego. Este valor usualmente es 1 (uno), lo que significa que 
+A                     Área a regar (m2)     
 
-​                           se regará todos los días, solo durante el periodo de lluvias puede cambiar esta 
 
-​                           frecuencia. 
-
-Sp                       Es el espaciamiento entre plantas.
-
-SI                       Es el espaciamiento entre laterales de riego, que sería de 1.5 m entre 
-
-​                           lateral. 
-
- 
-
-NOTA: Sp* SI, se sustituye por el numero de plantas por m2; se realizo un muestreo de 1 m2 encontrando 25 “plantas”.
-
-Seccion 1: (Oficina) 94 m2              AREA 1 * 25 plantas/m2 = 9,400
-
-Seccion 2: (Casa) 124 m2               AREA 2 = 12,400
-
-Seccion 3: (Lago) 110 m2  y 140 m2      AREA 3 = 11,000  y  14,000
-
-G= (0.66701 lt/1)* AREA 1   = 0.66701 * 9400 = 62,698.94 lt/planta/día
-
-G= (667.01/1)* AREA 2
-
-G= (667.01/1)* AREA 3
-
- 
-
- 
-
- 
-
+Seccion 1: (Oficina) 94 m2              G =0.0066625 * 94 = 0.6227 m3
+Seccion 2: (Casa) 124 m2                G =0.0066625 * 124 = 0.8215 m3
+Seccion 3: (Lago) 140 m2                G =0.0066625 * 140 = 0.924 m3
  
 
 Ahora necesito saber ¿cuánto tiempo debo regar para darle a la planta esta cantidad de 
 
 agua?, a esto se le llama Tiempo de aplicación (Ta):
 
-Ta = G / (Np x qa)
+Ta = G / Ga
 
-Donde: G =es el volumen de agua por planta, que es 4.72 L/planta/día
+Donde: 
+G =es el volumen de agua por area
 
-Np = Puntos de emisión por planta, este se obtiene de la siguiente manera:
+Ga = Gasto de agua por sección
+     Sumatoria de número de aspersores * gasto de cada uno (Lt/min)
 
-Np = Sp/Se
-
-Donde: Sp = es el espaciamiento entre plantas = 0.35 m 
-
-Se= espaciamiento entre goteros sobre el lateral= 0.20 (estamos asumiendo que se tiene una cinta de goteo de 8 milésimas de grosor de pared, con espaciamiento entre goteros de 20 cm). 
-
-Np = 0.35 / 0.20 
-
-Np = 1.75 
-
-Pasa el caso de estudio se tienen 3 secciones:
-
-\1.    Oficina:
-
-\2.    Casa:
-
-\3.    Lago:
-
- 
-
-qa = es el caudal nominal del gotero de lateral de riego, asumimos que tenemos una cinta T-TAPE y el gotero tiene una descarga de 0.99 L/h (qa = 0.99L/h) por gotero a una presión de trabajo de 1 O libras por pulgada cuadrada (PSI).
+Seccion 1: 10 rociadores con un Ga = 9 Lt/min cada uno = 90 Lt/min = 0.090 m3/min
+Seccion 2: 5 aspersores con un Ga = 18 Lt/min cada uno = 90 Lt/min = 0.090 m3/min
+Seccion 3: 5 aspersores con un Ga = 18 Lt/min cada uno = 90 Lt/min = 0.090 m3/min
 
 Entonces el Tiempo de aplicación de agua seria: 
 
-Ta = 4.72 L/planta/día 1 1.75 x 0.99 
+Seccion: 1     Ta =  0.6227/0.090   = 6.91 min            
+Seccion 2      Ta =  0.98215/0.090  = 9.12 min                   
+Seccion 3      Ta =  0.924/0.090    = 10.26 min                                 
+ 
 
+
+ 
 Ta = 2. 72 = 2 horas con 45 minutos
 
  

@@ -56,7 +56,7 @@ calculada por periodos de 24 horas, tres mediciones diarias son las que realiza 
 
 ​                                        *Tabla 1. Coeficientes estacionales de consumo para varios cultivos.*
 
-![image-20220614223526270](C:\Users\csama\AppData\Roaming\Typora\typora-user-images\image-20220614223526270.png)
+![image-20220614223526270](https://github.com/cristySS/R-GIS/blob/main/imagenes/Tabla1.jpg)
 
 
 

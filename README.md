@@ -138,14 +138,17 @@ Con el dato anterior podemos obtener el volumen de agua de cada área a regar   
 
  Donde: 
 
-RR o db               Requerimiento de riego o lámina bruta (m)
+RR o db:                     Requerimiento de riego o lámina bruta (m)
 
-A                     Área a regar (m2)     
+A:                           Área a regar (m2)     
 
 
 Seccion 1: (Oficina) 94 m2              G =0.0066625 * 94 = 0.6227 m3
+
 Seccion 2: (Casa) 124 m2                G =0.0066625 * 124 = 0.8215 m3
+
 Seccion 3: (Lago) 140 m2                G =0.0066625 * 140 = 0.924 m3
+
 
 Ahora necesito saber ¿cuánto tiempo debo regar para darle a la planta esta cantidad de agua?, a esto se le llama Tiempo de aplicación (Ta):
 
